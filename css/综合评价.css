@@ -1,0 +1,185 @@
+body {
+			padding: 0px;
+			margin: 0px;
+			background-color: black;
+			font-size: 0px;
+		}
+
+		#container {
+			width: 100%;
+			background-color: rgba(26, 30, 54, 0.4);
+			position: relative;
+		}
+
+		#return {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			z-index: 10;
+		}
+
+		#return a {
+			font-size: 30px;
+			text-decoration: none;
+			outline: none;
+			color: white;
+			animation: textshadow 2s linear alternate infinite;
+		}
+
+		@keyframes textshadow {
+			to {
+				opacity: 0.5;
+				text-shadow: 0 0 0.25rem rgba(255, 255, 255, 0.5), 0 0 0.5rem rgba(255, 255, 255, 0.5), 0 0 1rem rgba(255, 255, 255, 0.5);
+			}
+		}
+
+		#calin {
+			width: 40%;
+			height: 100%;
+			display: inline-block;
+			vertical-align: top;
+			font-size: medium;
+			color: white;
+		}
+
+		#cal {
+			width: 100%;
+			height: 90%;
+			font-size: medium;
+			color: white;
+		}
+
+		#cal .range {
+			width: 100%;
+			height: 4%;
+		}
+
+		#cal .time {
+			width: 100%;
+			height: 4%;
+			margin-top: 18px;
+		}
+
+		#calin h1 {
+			margin-left: 15px;
+		}
+
+		#cal .range p {
+			margin-left: 15px;
+		}
+
+		.time-horizontal {
+			list-style-type: none;
+			border-top: 1px solid #ffffff;
+			width: 100%;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.time-horizontal li {
+			float: left;
+			position: relative;
+			text-align: center;
+			width: 16.6666667%;
+			padding-top: 10px;
+			color: #2baeeb;
+		}
+
+		.time-horizontal .select b:before {
+			content: '';
+			position: absolute;
+			top: -10px;
+			left: 47%;
+			width: 12px;
+			height: 12px;
+			border: 2px solid #f1d168;
+			border-radius: 8px;
+			background: #f5c730;
+			box-shadow: 0px 0px 5px #e6b106;
+		}
+
+		.time-horizontal li b:before {
+			content: '';
+			position: absolute;
+			top: -8px;
+			left: 47%;
+			width: 12px;
+			height: 12px;
+			border: 2px solid #f8f8f8;
+			border-radius: 8px;
+			background: #ffffff;
+		}
+
+		.time-horizontal li b:hover:before {
+			background: #2baeeb;
+			border: 2px solid #5fbbe6;
+			box-shadow: 0px 0px 5px #1f89bb;
+		}
+
+		#cal p {
+			display: inline-block;
+			margin: 0px;
+		}
+
+		#map {
+			width: 59%;
+			height: 100%;
+			display: inline-block;
+		}
+
+		input[type="range"] {
+			outline: none;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			float: right;
+			width: 60%;
+			background-color: #ebeff4;
+			padding: 0px;
+			margin: 0px;
+			border: 0px;
+			height: 6px;
+			margin-top: calc(2% - 3px);
+		}
+
+		input[type="range"]::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			transform: translateY(0px);
+			background: rgb(252, 252, 252);
+			border-radius: 50%;
+			border: #059CFA solid 2px;
+			margin: 0px;
+		}
+
+		#cal .economics input[type="range"] {
+			background: linear-gradient(to right, #60acfc, #ebeff4 50%, #ebeff4);
+		}
+
+		#cal .sociology input[type="range"] {
+			background: linear-gradient(to right, #ff7c7c, #ebeff4 50%, #ebeff4);
+		}
+
+		#cal .environmental input[type="range"] {
+			background: linear-gradient(to right, #5bc49f, #ebeff4 50%, #ebeff4);
+		}
+
+		#cal .culture input[type="range"] {
+			background: linear-gradient(to right, #feb64d, #ebeff4 50%, #ebeff4);
+		}
+
+		#foot {
+			width: 100%;
+			font-size: medium;
+			color: white;
+			text-align: center;
+		}
+
+		#foot p {
+			margin: 0px;
+			margin-top: 20px;
+		}

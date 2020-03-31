@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>长三角城市活力</title>
+    <link href="css/jquery.fullPage.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <img id="bg" src="imgs/background.png">
+    <div id="fullpage">
+        <div class="section">
+            <figure class="effect">
+                <div id="pengyouquan"><a
+                        href="https://d.xiumi.us/board/v5/43BC3/181390023?tdsourcetag=s_pctim_aiomsg"><img
+                            src="imgs/朋友圈.png"></a>
+                </div>
+                <img class="imgChange" id="img1" src="imgs/数说.jpg">
+                <img class="imgChange" id="img2" src="imgs/综合.jpg">
+                <img class="imgChange" id="img3" src="imgs/朋友圈.jpg">
+                <figcaption>
+                    <h2>长三角城市活力</h2>
+                    <div>
+                        <span class="childPage" id="span1" onmouseover="SpanCSSChange1(id)"
+                            onmouseout="SpanCSSChange0(id)"><a href="html/图说-数说.html"> 图说-数说</a></span>
+                        <span class="childPage" id="span2" onmouseover="SpanCSSChange1(id)"
+                            onmouseout="SpanCSSChange0(id)"><a href="html/综合评价.html"> 综合评价</a></span>
+                        <span class="childPage" id="span3" onmouseover="SpanCSSChange1(id)"
+                            onmouseout="SpanCSSChange0(id)"><a
+                                href="https://d.xiumi.us/board/v5/43BC3/181390023?tdsourcetag=s_pctim_aiomsg">
+                                朋友圈</a></span>
+                    </div>
+                    <div class="scroll">
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                    </div>
+                    <span class="text">向下滑动</span>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="section" id="intro">
+            <div class="container">
+                <div><img src="imgs/聚焦.png"></div>
+                <div>
+                    <p>以数据为基</p>
+                </div>
+                <div><img src="imgs/视觉.png"></div>
+                <div>
+                    <p>聚焦长三角</p>
+                </div>
+                <div><img src="imgs/数据.png"></div>
+                <div>
+                    <p>视觉与交互</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="data">
+                <span>Data</span>
+                <div id="tree"></div>
+            </div>
+        </div>
+        <div class="section">
+            <div id="about" class="page">
+                <span class="pageTitle"><b>关于我们</b></span>
+                <hr>
+                <div id="memAndSupport">
+                    <div id="member">
+                        <div class="des" id="desStu">
+                            <h2>成员</h2>
+                        </div>
+                        <div class="pic">
+                            <div class="imgin">
+                                <div class="img"><img src="imgs/赵美涵.png"></div>
+                                <div class="name">赵美涵<br>队长<br>文档编写</div>
+                            </div>
+                            <div class="imgin">
+                                <div class="img"><img src="imgs/弯媛美.png"></div>
+                                <div class="name">弯媛美<br>队员<br>朋友圈制作</div>
+                            </div>
+                            <div class="imgin">
+                                <div class="img"><img src="imgs/朱铭凡.png"></div>
+                                <div class="name">朱铭凡<br>队员<br>网页编写</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="support">
+                        <div class="middle">
+                            <h2>支持单位</h2>
+                            <div class="img"><a href="http://www.geodata.cn/" target="_blank"><img
+                                        src="imgs/长三角.png"></a></div>
+                            <div class="img"><a href="http://share.escience.net.cn/nav/newIndex" target="_blank"><img
+                                        src="imgs/共享杯.png"></a></div>
+                            <div class="img"><a href="http://dky.njnu.edu.cn/" target="_blank"><img
+                                        src="imgs/地科院.png"></a></div>
+                            <div class="img"><a href="http://lbsyun.baidu.com/" target="_blank"><img
+                                        src="imgs/百度api.png"></a></div>
+                            <div class="img"><a href="https://lbs.amap.com/" target="_blank"><img
+                                        src="imgs/高德api.png"></a></div>
+                            <div class="img"><a href="https://www.echartsjs.com/zh/index.html" target="_blank"><img
+                                        src="imgs/echarts.png"></a></div>
+                        </div>
+                        <p><small>声明：截止2019年11月，该平台仅收集了江苏省、浙江省和上海市的数据，长三角城市群中的其余省份与城市数据收集工作还未完成。</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

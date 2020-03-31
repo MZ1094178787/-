@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>活力计算</title>
+	<link rel="stylesheet" href="../css/综合评价.css">
+</head>
+
+<body>
+	<div id="container">
+		<div id="return">
+			<a href="../共享杯首页.html">&lt返回</a>
+		</div>
+		<div id="calin">
+			<h1>自定义权重</h1>
+			<div id="cal">
+				<div class="range economics">
+					<p>居民人均可支配收入:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range economics">
+					<p>地方一般公共预算收入:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range economics">
+					<p>第三产业生产总值:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range economics">
+					<p>工业企业单位数:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range economics">
+					<p>实际外商直接投资:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range economics">
+					<p>进出口总额:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>社会固定资产投资:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>医生数:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>人均公共预算支出:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>从业人员:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>个人汽车拥有量:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>全年专利申请数:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>社会保障和就业支出:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range sociology">
+					<p>移动电话用户:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range environmental">
+					<p>公共绿地面积:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range environmental">
+					<p>全年用电量:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range environmental">
+					<p>公路里程:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range environmental">
+					<p>建成区绿地面积:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range environmental">
+					<p>城镇生活污水处理率:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range culture">
+					<p>公共图书馆图书藏量:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range culture">
+					<p>在校学生数:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range culture">
+					<p>教育支出:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="range culture">
+					<p>剧场、影剧院数:</p><input type="range" value="5" min="0" max="9" step="1">
+				</div>
+				<div class="time">
+					<ul class="time-horizontal">
+						<li class="select"><b></b>2010</li>
+						<li><b></b>2011</li>
+						<li><b></b>2012</li>
+						<li><b></b>2014</li>
+						<li><b></b>2015</li>
+						<li><b></b>2016</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="map"></div>
+	</div>
+	<div id="foot">
+		<p>计算说明：将各个城市当年的指标进行排序，并计算单项得分，通过左侧给定的权重得到最终得分</p>
+		<p>参考文献：<br>
+			[1] 张梦琪. 城市活力的分析与评价[D]. 2018.<br>
+			[2] 汪胜兰, 李丁, 冶小梅, et al. 城市活力的模糊综合评价研究——以湖北主要城市为例[J]. 华中师范大学学报(自然科学版), 2013, 47(3):1-6.<br>
+			[3] 吕名扬. 城市活力指标体系的构建与评价[D]. 东北财经大学.<br>
+			[4] 方永华. 基于多源大数据的城市街道活力测度与影响机制研究[D].<br>
+			[5] 范冬婉. 时空大数据支持下的城市活力测量方法及增长策略研究[D]. 2019.
+		</p>
+	</div>
+
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/echarts.min.js"></script>
+	<script src="../js/echarts-gl.min.js"></script>
+	<script src="../js/综合评价.js"></script>
+</body>
+
+</html>
